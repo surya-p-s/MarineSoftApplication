@@ -20,17 +20,13 @@ class DataActivity : AppCompatActivity() {
         val logOut=findViewById<Button>(R.id.logOut)
 
         logOut.setOnClickListener{
-            val progressBar=findViewById<ProgressBar>(R.id.progressBar3)
-            progressBar.visibility= View.VISIBLE
             Firebase.auth.signOut()
             updateUI()
         }
     }
 
     private fun updateUI() {
-        val progressBar=findViewById<ProgressBar>(R.id.progressBar3)
-        progressBar.visibility= View.VISIBLE
-        val intent= Intent(this,LogInPage::class.java)
+        val intent= Intent(this,SignInPage::class.java)
         startActivity(intent)
         finish()
     }

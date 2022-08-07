@@ -4,7 +4,7 @@
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/ocean_blue</item>
         <item name="colorPrimaryVariant">@color/dark_ocean</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
@@ -12,5 +12,6 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" >@color/dark_ocean</item>
         <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/ocean_blue</item>
     </style>
 </resources>

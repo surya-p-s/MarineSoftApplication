@@ -12,5 +12,6 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" >@color/dark_ocean</item>
         <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/ocean_blue</item>
     </style>
 </resources>

@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/ocean_blue"
     tools:context=".StartActivity">
 
     <ImageView
@@ -49,12 +48,13 @@
 
     <Button
         android:id="@+id/signinButton"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_width="321dp"
+        android:layout_height="53dp"
         android:layout_marginTop="36dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
         android:background="@drawable/white_button"
         android:text="@string/signin"
-        android:textAllCaps="false"
         android:textColor="@color/ocean_blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,12 +62,13 @@
 
     <Button
         android:id="@+id/registerButton"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_width="321dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginTop="32dp"
         android:background="@drawable/ocean_button"
         android:text="@string/register"
-        android:textAllCaps="false"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
