@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MarineSoft</string>
+    <string name="background">Background</string>
+    <string name="logo">Logo</string>
+    <string name="welcome_to_marinesoft">Welcome To MarineSoft</string>
+    <string name="marinesoft">MarineSoft</string>
+    <string name="signin">SignIn</string>
+    <string name="register">Register</string>
+    <string name="example_mail_com">example@mail.com</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="signout">SignOut</string>
+    <string name="registration_details">Registration Details</string>
+    <string name="lastname">LastName</string>
+    <string name="firstname">FirstName</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="userid">Choose User Name</string>
+    <string name="submit">Submit</string>
+    <string name="species">Species</string>
+    <string name="quantity">Quantity</string>
+    <string name="time">Time</string>
+    <string name="EmailAddress" />
+    <string name="know_all_about_fishes">Know All About Fishes</string>
+</resources>
