@@ -21,4 +21,15 @@
     <string name="know_all_about_fishes">Know All About Fishes</string>
     <string name="signin_to_continue">SignIn To Continue</string>
     <string name="signup_to_continue">SignUp To Continue</string>
+    <string name="image_of_fishes">Image Of Fishes</string>
+    <string name="trevally_fish">Trevally Fish</string>
+    <string name="tuna_fish">Tuna Fish</string>
+    <string name="rainbow_trout">Rainbow Trout</string>
+    <string name="monk_fish">Monk Fish</string>
+    <string name="saradine_fishes">Saradine Fishes</string>
+    <string name="gar_fish">Gar Fish</string>
+    <string name="atlantic_bluefin_tuna">Atlantic Bluefin Tuna</string>
+    <string name="chinese_sturgeon">Chinese Sturgeon</string>
+    <string name="beluga_sturgeon">Beluga Sturgeon</string>
+    <string name="european_eal">European Eal</string>
 </resources>
