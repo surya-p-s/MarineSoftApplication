@@ -73,17 +73,6 @@ class SignInPage : AppCompatActivity() {
     }
 
 
-    override fun onStart() {
-        super.onStart()
-        val currentUser=auth.currentUser
-        if (currentUser!=null){
-            val intent=Intent(this,DataActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
-
-    }
-
     private fun updateUI(user: FirebaseUser?) {
         if(user != null) {
             val intent = Intent(this, DataActivity::class.java)
