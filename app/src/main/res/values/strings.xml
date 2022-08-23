@@ -33,4 +33,8 @@
     <string name="beluga_sturgeon">Beluga Sturgeon</string>
     <string name="european_eal">European Eal</string>
     <string name="back_button">Back Button</string>
+    <string name="todo">TODO</string>
+    <string name="home">Home</string>
+    <string name="graph_representaion">Graph Representaion</string>
+    <string name="analytical_representaion">Analytical Representaion</string>
 </resources>

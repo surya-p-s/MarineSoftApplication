@@ -16,11 +16,13 @@
         <entry key="..\:/Users/surya/AndroidStudioProjects/MarineSoftApplication/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/surya/AndroidStudioProjects/MarineSoftApplication/app/src/main/res/layout/activity_register.xml" value="0.22" />
         <entry key="..\:/Users/surya/AndroidStudioProjects/MarineSoftApplication/app/src/main/res/layout/activity_sign_in.xml" value="0.209375" />
-        <entry key="..\:/Users/surya/AndroidStudioProjects/MarineSoftApplication/app/src/main/res/layout/activity_sign_in_page.xml" value="0.22" />
+        <entry key="..\:/Users/surya/AndroidStudioProjects/MarineSoftApplication/app/src/main/res/layout/activity_sign_in_page.xml" value="0.45681818181818185" />
         <entry key="..\:/Users/surya/AndroidStudioProjects/MarineSoftApplication/app/src/main/res/layout/activity_sign_in_page2.xml" value="0.1718683197947841" />
         <entry key="..\:/Users/surya/AndroidStudioProjects/MarineSoftApplication/app/src/main/res/layout/activity_signup.xml" value="0.1718683197947841" />
         <entry key="..\:/Users/surya/AndroidStudioProjects/MarineSoftApplication/app/src/main/res/layout/activity_start.xml" value="0.2" />
+        <entry key="..\:/Users/surya/AndroidStudioProjects/MarineSoftApplication/app/src/main/res/layout/headerfile.xml" value="0.1718683197947841" />
         <entry key="..\:/Users/surya/AndroidStudioProjects/MarineSoftApplication/app/src/main/res/layout/navigation_layout.xml" value="0.1718683197947841" />
+        <entry key="..\:/Users/surya/AndroidStudioProjects/MarineSoftApplication/app/src/main/res/menu/sidemenu.xml" value="0.25" />
         <entry key="..\:/Users/surya/AndroidStudioProjects/MarineSoftApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
@@ -30,5 +32,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
   </component>
 </project>

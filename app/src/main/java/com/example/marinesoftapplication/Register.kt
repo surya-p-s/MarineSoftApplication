@@ -27,18 +27,12 @@ class Register : AppCompatActivity() {
         setContentView(R.layout.activity_register)
 
         auth = Firebase.auth
-        val backB=findViewById<ImageButton>(R.id.backButton1)
         registerButton = findViewById(R.id.registerButton)
         email = findViewById(R.id.emailText2)
         password = findViewById(R.id.textPassword2)
 
 
-        // back button
-        backB.setOnClickListener{
-            val intent=Intent(this,SignInPage::class.java)
-            startActivity(intent)
-            finish()
-        }
+
 
         // create new user
         registerButton.setOnClickListener {

@@ -7,18 +7,18 @@
     tools:context=".DataActivity">
 
 
-        <Button
-            android:id="@+id/logOut"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:background="@drawable/white_button"
-            android:text="@string/signout"
-            android:textColor="@color/ocean_blue"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.993"
-            app:layout_constraintStart_toEndOf="@+id/logoView"
-            app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/logOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/white_button"
+        android:text="@string/signout"
+        android:textColor="@color/ocean_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.993"
+        app:layout_constraintStart_toEndOf="@+id/logoView"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/logoView"
@@ -632,11 +632,53 @@
                             android:textStyle="bold|italic" />
 
                     </TableRow>
+
+                    <TableRow
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:layout_height="50dp"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:layout_height="50dp"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:layout_height="50dp"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold|italic" />
+
+                    </TableRow>
+
                 </TableLayout>
+
             </ScrollView>
+
         </HorizontalScrollView>
 
     </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addpicButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/ocean_blue"
+        android:src="@drawable/ic_baseline_add_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/todo" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

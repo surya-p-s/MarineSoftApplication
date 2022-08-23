@@ -34,16 +34,6 @@ class SignInPage : AppCompatActivity() {
         password = findViewById(R.id.textPassword1)
 
 
-
-        // back button
-        val backB=findViewById<ImageButton>(R.id.backButton)
-
-        backB.setOnClickListener {
-            val intent = Intent(this,StartActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
-
         logIn.setOnClickListener {
 
             sEmail = email.text.toString().trim()
