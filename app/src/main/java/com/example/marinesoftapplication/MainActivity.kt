@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         val intent = Intent(this, StartActivity::class.java)
-        Timer().schedule(3500){
+        Timer().schedule(800){
             startActivity(intent)
             finish()
         }

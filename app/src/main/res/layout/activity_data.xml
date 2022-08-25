@@ -16,7 +16,7 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="53dp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -746,6 +746,33 @@
 
                         </TableRow>
 
+                        <TableRow
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_width="110dp"
+                                android:layout_height="50dp"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold|italic" />
+
+                            <TextView
+                                android:layout_width="110dp"
+                                android:layout_height="50dp"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold|italic" />
+
+                            <TextView
+                                android:layout_width="110dp"
+                                android:layout_height="50dp"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold|italic" />
+
+                        </TableRow>
+
 
                     </TableLayout>
 
@@ -759,7 +786,7 @@
             android:id="@+id/navigation_bar"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            app:menu="@menu/sidemenu"
+            app:menu="@menu/menu"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
