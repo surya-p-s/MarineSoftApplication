@@ -63,37 +63,13 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/logOut">
 
-                        <TableRow
-                            android:layout_width="50dp"
-                            android:layout_height="match_parent">
-
-                            <TextView
-                                android:layout_width="110dp"
-                                android:layout_height="50dp"
-                                android:textColor="@color/black"
-                                android:textSize="20sp"
-                                android:textStyle="bold|italic" />
-
-                            <TextView
-                                android:layout_width="110dp"
-                                android:layout_height="50dp"
-                                android:textColor="@color/black"
-                                android:textSize="20sp"
-                                android:textStyle="bold|italic" />
-
-                            <TextView
-                                android:layout_width="110dp"
-                                android:layout_height="50dp"
-                                android:textColor="@color/black"
-                                android:textSize="20sp"
-                                android:textStyle="bold|italic" />
-
-                        </TableRow>
 
                         <TableRow
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@drawable/blue_border">
+                            android:background="@drawable/blue_border"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center">
 
                             <TextView
                                 android:id="@+id/speciesText"
@@ -102,7 +78,7 @@
                                 android:paddingTop="10dp"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
-                                
+
                                 android:text="@string/species"
                                 android:textColor="@color/black"
                                 android:textSize="20sp"
@@ -116,7 +92,7 @@
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
-                                
+
                                 android:text="@string/quantity"
                                 android:textColor="@color/black"
                                 android:textSize="20sp"
@@ -132,7 +108,7 @@
                                 android:paddingTop="10dp"
                                 android:text="@string/time"
                                 android:textColor="@color/black"
-                                
+
                                 android:textSize="20sp"
                                 android:textStyle="bold|italic"
                                 app:layout_constraintStart_toEndOf="@+id/quantityText" />
@@ -143,7 +119,7 @@
                                 android:layout_height="50dp"
                                 android:text="@string/image_of_fishes"
                                 android:textColor="@color/black"
-                                
+
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -155,13 +131,14 @@
                         <TableRow
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@drawable/blue_border">
+                            android:background="@drawable/blue_border"
+                            android:gravity="center">
 
                             <TextView
                                 android:id="@+id/speciesText1"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -174,7 +151,7 @@
                                 android:id="@+id/quantityText1"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -187,7 +164,7 @@
                                 android:id="@+id/timeText1"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -200,7 +177,7 @@
                                 android:id="@+id/speciesImage1"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                
+
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/trevally_fish" />
@@ -215,7 +192,7 @@
                                 android:id="@+id/speciesText2"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -228,7 +205,7 @@
                                 android:id="@+id/quantityText2"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -241,7 +218,7 @@
                                 android:id="@+id/timeText2"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -254,7 +231,7 @@
                                 android:id="@+id/speciesImage2"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                
+                                android:gravity="center"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/tuna_fish" />
@@ -269,7 +246,7 @@
                                 android:id="@+id/speciesText3"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -282,7 +259,7 @@
                                 android:id="@+id/quantityText3"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -295,7 +272,7 @@
                                 android:id="@+id/timeText3"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -308,7 +285,7 @@
                                 android:id="@+id/speciesImage3"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                
+                                android:gravity="center"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/rainbow_trout" />
@@ -323,7 +300,7 @@
                                 android:id="@+id/speciesText4"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -336,7 +313,7 @@
                                 android:id="@+id/quantityText4"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -349,7 +326,7 @@
                                 android:id="@+id/timeText4"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -362,7 +339,7 @@
                                 android:id="@+id/speciesImage4"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                
+                                android:gravity="center"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/monk_fish" />
@@ -377,7 +354,7 @@
                                 android:id="@+id/speciesText5"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -390,7 +367,7 @@
                                 android:id="@+id/quantityText5"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -403,7 +380,7 @@
                                 android:id="@+id/timeText5"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -416,7 +393,7 @@
                                 android:id="@+id/speciesImage5"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                
+                                android:gravity="center"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/saradine_fish" />
@@ -431,7 +408,7 @@
                                 android:id="@+id/speciesText6"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -444,7 +421,7 @@
                                 android:id="@+id/quantityText6"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -457,7 +434,7 @@
                                 android:id="@+id/timeText6"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -470,7 +447,7 @@
                                 android:id="@+id/speciesImage6"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                
+                                android:gravity="center"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/gar_fish" />
@@ -485,7 +462,7 @@
                                 android:id="@+id/speciesText7"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -498,7 +475,7 @@
                                 android:id="@+id/quantityText7"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -511,7 +488,7 @@
                                 android:id="@+id/timeText7"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -524,7 +501,7 @@
                                 android:id="@+id/speciesImage7"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                
+                                android:gravity="center"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/atlantic_bluefin_tuna" />
@@ -539,7 +516,7 @@
                                 android:id="@+id/speciesText8"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -552,7 +529,7 @@
                                 android:id="@+id/quantityText8"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -565,7 +542,7 @@
                                 android:id="@+id/timeText8"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -578,7 +555,7 @@
                                 android:id="@+id/speciesImage8"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                
+                                android:gravity="center"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/chinese_sturgeon" />
@@ -593,7 +570,7 @@
                                 android:id="@+id/speciesText9"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -606,7 +583,7 @@
                                 android:id="@+id/quantityText9"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -619,7 +596,7 @@
                                 android:id="@+id/timeText9"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -632,7 +609,7 @@
                                 android:id="@+id/speciesImage9"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                
+                                android:gravity="center"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/beluga_sturgeon" />
@@ -647,7 +624,7 @@
                                 android:id="@+id/speciesText10"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -660,7 +637,7 @@
                                 android:id="@+id/quantityText10"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -673,7 +650,7 @@
                                 android:id="@+id/timeText10"
                                 android:layout_width="110dp"
                                 android:layout_height="match_parent"
-                                
+                                android:gravity="center"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
                                 android:paddingTop="10dp"
@@ -686,7 +663,7 @@
                                 android:id="@+id/speciesImage10"
                                 android:layout_width="100dp"
                                 android:layout_height="100dp"
-                                
+                                android:gravity="center"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/euproen_eel" />
