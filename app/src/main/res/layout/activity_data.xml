@@ -68,6 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
+            android:background="@color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/logoView"
@@ -75,7 +76,9 @@
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp">
 
                 <ScrollView
                     android:layout_width="wrap_content"
@@ -128,9 +131,11 @@
                                 android:id="@+id/speciesText"
                                 android:layout_width="110dp"
                                 android:layout_height="50dp"
+                                android:paddingTop="10dp"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
                                 android:text="@string/species"
+                                android:background="@drawable/leftrad_background"
                                 android:textColor="@color/black"
                                 android:textSize="20sp"
                                 android:textStyle="bold|italic"
@@ -141,7 +146,9 @@
                                 android:layout_width="110dp"
                                 android:layout_height="50dp"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
+                                android:background="@drawable/square_background"
                                 android:text="@string/quantity"
                                 android:textColor="@color/black"
                                 android:textSize="20sp"
@@ -153,9 +160,11 @@
                                 android:layout_width="110dp"
                                 android:layout_height="50dp"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/time"
                                 android:textColor="@color/black"
+                                android:background="@drawable/square_background"
                                 android:textSize="20sp"
                                 android:textStyle="bold|italic"
                                 app:layout_constraintStart_toEndOf="@+id/quantityText" />
@@ -166,10 +175,13 @@
                                 android:layout_height="50dp"
                                 android:text="@string/image_of_fishes"
                                 android:textColor="@color/black"
+                                android:background="@drawable/rightrad_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:textSize="20sp"
                                 android:textStyle="bold|italic"/>
+
                         </TableRow>
 
                         <TableRow
@@ -179,9 +191,11 @@
                             <TextView
                                 android:id="@+id/speciesText1"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/trevally_fish"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -190,9 +204,11 @@
                             <TextView
                                 android:id="@+id/quantityText1"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/quantity"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -201,18 +217,21 @@
                             <TextView
                                 android:id="@+id/timeText1"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/time"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
-                                app:layout_constraintStart_toEndOf="@+id/quantityText1" />
+                                app:layout_constraintStart_toEndOf="@+id/quantityText2" />
 
                             <ImageView
                                 android:id="@+id/speciesImage1"
                                 android:layout_width="100dp"
-                                android:layout_height="100dp"
+                                 android:layout_height="100dp"
+                                android:background="@drawable/square_background"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/trevally_fish" />
@@ -225,9 +244,11 @@
                             <TextView
                                 android:id="@+id/speciesText2"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/tuna_fish"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -236,9 +257,11 @@
                             <TextView
                                 android:id="@+id/quantityText2"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/quantity"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -247,9 +270,11 @@
                             <TextView
                                 android:id="@+id/timeText2"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/time"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -258,7 +283,8 @@
                             <ImageView
                                 android:id="@+id/speciesImage2"
                                 android:layout_width="100dp"
-                                android:layout_height="100dp"
+                                 android:layout_height="100dp"
+                                android:background="@drawable/square_background"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/tuna_fish" />
@@ -271,9 +297,11 @@
                             <TextView
                                 android:id="@+id/speciesText3"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/rainbow_trout"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -282,9 +310,11 @@
                             <TextView
                                 android:id="@+id/quantityText3"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/quantity"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -293,9 +323,11 @@
                             <TextView
                                 android:id="@+id/timeText3"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/time"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -304,7 +336,8 @@
                             <ImageView
                                 android:id="@+id/speciesImage3"
                                 android:layout_width="100dp"
-                                android:layout_height="100dp"
+                                 android:layout_height="100dp"
+                                android:background="@drawable/square_background"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/rainbow_trout" />
@@ -317,9 +350,11 @@
                             <TextView
                                 android:id="@+id/speciesText4"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/monk_fish"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -328,9 +363,11 @@
                             <TextView
                                 android:id="@+id/quantityText4"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/quantity"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -339,9 +376,11 @@
                             <TextView
                                 android:id="@+id/timeText4"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/time"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -350,7 +389,8 @@
                             <ImageView
                                 android:id="@+id/speciesImage4"
                                 android:layout_width="100dp"
-                                android:layout_height="100dp"
+                                 android:layout_height="100dp"
+                                android:background="@drawable/square_background"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/monk_fish" />
@@ -363,9 +403,11 @@
                             <TextView
                                 android:id="@+id/speciesText5"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/saradine_fishes"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -374,9 +416,11 @@
                             <TextView
                                 android:id="@+id/quantityText5"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/quantity"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -385,9 +429,11 @@
                             <TextView
                                 android:id="@+id/timeText5"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/time"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -396,7 +442,8 @@
                             <ImageView
                                 android:id="@+id/speciesImage5"
                                 android:layout_width="100dp"
-                                android:layout_height="100dp"
+                                 android:layout_height="100dp"
+                                android:background="@drawable/square_background"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/saradine_fish" />
@@ -409,9 +456,11 @@
                             <TextView
                                 android:id="@+id/speciesText6"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/gar_fish"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -420,9 +469,11 @@
                             <TextView
                                 android:id="@+id/quantityText6"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/quantity"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -431,9 +482,11 @@
                             <TextView
                                 android:id="@+id/timeText6"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/time"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -442,7 +495,8 @@
                             <ImageView
                                 android:id="@+id/speciesImage6"
                                 android:layout_width="100dp"
-                                android:layout_height="100dp"
+                                 android:layout_height="100dp"
+                                android:background="@drawable/square_background"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/gar_fish" />
@@ -455,9 +509,11 @@
                             <TextView
                                 android:id="@+id/speciesText7"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/atlantic_bluefin_tuna"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -466,9 +522,11 @@
                             <TextView
                                 android:id="@+id/quantityText7"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/quantity"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -477,9 +535,11 @@
                             <TextView
                                 android:id="@+id/timeText7"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/time"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -488,7 +548,8 @@
                             <ImageView
                                 android:id="@+id/speciesImage7"
                                 android:layout_width="100dp"
-                                android:layout_height="100dp"
+                                 android:layout_height="100dp"
+                                android:background="@drawable/square_background"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/atlantic_bluefin_tuna" />
@@ -501,9 +562,11 @@
                             <TextView
                                 android:id="@+id/speciesText8"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/chinese_sturgeon"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -512,9 +575,11 @@
                             <TextView
                                 android:id="@+id/quantityText8"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/quantity"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -523,9 +588,11 @@
                             <TextView
                                 android:id="@+id/timeText8"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/time"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -534,7 +601,8 @@
                             <ImageView
                                 android:id="@+id/speciesImage8"
                                 android:layout_width="100dp"
-                                android:layout_height="100dp"
+                                 android:layout_height="100dp"
+                                android:background="@drawable/square_background"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/chinese_sturgeon" />
@@ -547,9 +615,11 @@
                             <TextView
                                 android:id="@+id/speciesText9"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/beluga_sturgeon"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -558,9 +628,11 @@
                             <TextView
                                 android:id="@+id/quantityText9"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/quantity"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -569,9 +641,11 @@
                             <TextView
                                 android:id="@+id/timeText9"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/time"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -580,7 +654,8 @@
                             <ImageView
                                 android:id="@+id/speciesImage9"
                                 android:layout_width="100dp"
-                                android:layout_height="100dp"
+                                 android:layout_height="100dp"
+                                android:background="@drawable/square_background"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
                                 app:srcCompat="@drawable/beluga_sturgeon" />
@@ -593,10 +668,12 @@
                             <TextView
                                 android:id="@+id/speciesText10"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
-                                android:text="@string/european_eal"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
+                                android:text="@string/european_eel"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
                                 app:layout_constraintStart_toStartOf="parent" />
@@ -604,9 +681,11 @@
                             <TextView
                                 android:id="@+id/quantityText10"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/quantity"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -615,9 +694,11 @@
                             <TextView
                                 android:id="@+id/timeText10"
                                 android:layout_width="110dp"
-                                android:layout_height="50dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/square_background"
                                 android:paddingStart="15dp"
-                                android:paddingEnd="15dp"
+                                 android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
                                 android:text="@string/time"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
@@ -626,10 +707,11 @@
                             <ImageView
                                 android:id="@+id/speciesImage10"
                                 android:layout_width="100dp"
-                                android:layout_height="100dp"
+                                 android:layout_height="100dp"
+                                android:background="@drawable/square_background"
                                 android:paddingTop="5dp"
                                 android:paddingBottom="5dp"
-                                app:srcCompat="@drawable/euproen_eal" />
+                                app:srcCompat="@drawable/euproen_eel" />
                         </TableRow>
 
                         <TableRow
@@ -658,7 +740,6 @@
                                 android:textStyle="bold|italic" />
 
                         </TableRow>
-
                         <TableRow
                             android:layout_width="50dp"
                             android:layout_height="match_parent">
@@ -685,6 +766,7 @@
                                 android:textStyle="bold|italic" />
 
                         </TableRow>
+
 
                     </TableLayout>
 

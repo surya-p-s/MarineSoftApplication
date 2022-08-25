@@ -31,10 +31,12 @@
     <string name="atlantic_bluefin_tuna">Atlantic Bluefin Tuna</string>
     <string name="chinese_sturgeon">Chinese Sturgeon</string>
     <string name="beluga_sturgeon">Beluga Sturgeon</string>
-    <string name="european_eal">European Eal</string>
+    <string name="european_eel">European Eel</string>
     <string name="back_button">Back Button</string>
     <string name="todo">TODO</string>
     <string name="home">Home</string>
     <string name="graph_representaion">Graph Representaion</string>
     <string name="analytical_representaion">Analytical Representaion</string>
+    <string name="select_image">Select Image</string>
+    <string name="upload_image">Upload Image</string>
 </resources>

@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.Toolbar
 import androidx.drawerlayout.widget.DrawerLayout
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -28,11 +29,18 @@ class DataActivity : AppCompatActivity() {
             Firebase.auth.signOut()
             updateUI()
         }
+        val uploadButton=findViewById<FloatingActionButton>(R.id.addpicButton)
+
+        uploadButton.setOnClickListener {
+            val intent=Intent(this,UploadActivity::class.java)
+            startActivity(intent)
+        }
 
         // Menu Layout
 //        drawblelayout=findViewById(R.id.drawablelayout)
 //        navigationview=findViewById(R.id.navigationView)
 //        toolbar=findViewById(R.id.toolBar)
+
 
     }
 
