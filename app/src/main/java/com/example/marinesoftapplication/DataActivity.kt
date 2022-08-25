@@ -24,7 +24,7 @@ class DataActivity : AppCompatActivity() {
 
         // Authentiation
         auth = Firebase.auth
-        val logOut=findViewById<Button>(R.id.logOut)
+        val logOut=findViewById<FloatingActionButton>(R.id.logOut)
         logOut.setOnClickListener{
             Firebase.auth.signOut()
             updateUI()
