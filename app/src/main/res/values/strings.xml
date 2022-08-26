@@ -35,8 +35,9 @@
     <string name="back_button">Back Button</string>
     <string name="todo">TODO</string>
     <string name="home">Home</string>
-    <string name="graph_representaion">Graph Representaion</string>
-    <string name="analytical_representaion">Analytical Representaion</string>
+    <string name="graph">Graph</string>
+    <string name="analytical">Analytical</string>
     <string name="select_image">Select Image</string>
     <string name="upload_image">Upload Image</string>
+    <string name="enter_name_if_you_know">Enter Name If You Know</string>
 </resources>

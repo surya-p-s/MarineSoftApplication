@@ -78,7 +78,6 @@
                                 android:paddingTop="10dp"
                                 android:paddingStart="15dp"
                                 android:paddingEnd="15dp"
-
                                 android:text="@string/species"
                                 android:textColor="@color/black"
                                 android:textSize="20sp"
@@ -125,6 +124,58 @@
                                 android:paddingTop="10dp"
                                 android:textSize="20sp"
                                 android:textStyle="bold|italic"/>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/addedRow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/blue_border"
+                            android:visibility="gone"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/speciesTextadd"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="10dp"
+                                android:paddingStart="15dp"
+                                android:paddingEnd="15dp"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                app:layout_constraintStart_toStartOf="parent" />
+
+                            <TextView
+                                android:id="@+id/quantityTextadd"
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="15dp"
+                                android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                app:layout_constraintStart_toEndOf="@+id/speciesText" />
+
+                            <TextView
+                                android:id="@+id/timeTextadd"
+                                android:layout_width="110dp"
+                                android:layout_height="50dp"
+                                android:paddingStart="15dp"
+                                android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
+                                android:textSize="20sp"
+                                app:layout_constraintStart_toEndOf="@+id/quantityText" />
+
+                            <ImageView
+                                android:id="@+id/imageadd"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="15dp"
+                                android:paddingEnd="15dp"
+                                android:paddingTop="10dp"
+                                android:textSize="20sp"/>
 
                         </TableRow>
 

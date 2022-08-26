@@ -42,12 +42,27 @@
             android:layout_width="300dp"
             android:layout_height="300dp"
             android:layout_marginStart="60dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="60dp"
             android:background="@drawable/square_background"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+
+        <EditText
+            android:id="@+id/upSpeciesName"
+            android:layout_width="220dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:paddingStart="6dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/text_background"
+            android:hint="@string/enter_name_if_you_know"
+            android:textColorHint="#66424040"
+            android:textColor="@color/black"
+            android:fontFamily="@font/aclonica"
+            app:layout_constraintTop_toBottomOf="@+id/imageUploadView"/>
 
         <Button
             android:id="@+id/selectImgButton"
@@ -60,7 +75,7 @@
             android:text="@string/select_image"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageUploadView"/>
+            app:layout_constraintTop_toBottomOf="@+id/upSpeciesName"/>
 
         <Button
             android:id="@+id/uplodImgButton"

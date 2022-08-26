@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ADMIN/StudioProjects/MarineSoftApplication/app/src/main/res/layout/activity_analytic.xml" value="0.15604959384352288" />
         <entry key="..\:/Users/ADMIN/StudioProjects/MarineSoftApplication/app/src/main/res/layout/activity_data.xml" value="0.19" />
-        <entry key="..\:/Users/ADMIN/StudioProjects/MarineSoftApplication/app/src/main/res/layout/activity_upload.xml" value="0.15" />
+        <entry key="..\:/Users/ADMIN/StudioProjects/MarineSoftApplication/app/src/main/res/layout/activity_graph.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/ADMIN/StudioProjects/MarineSoftApplication/app/src/main/res/layout/activity_upload.xml" value="0.22" />
         <entry key="..\:/Users/ADMIN/StudioProjects/MarineSoftApplication/app/src/main/res/menu/sidemenu.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/surya/AndroidStudioProjects/MarineSoftApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2165" />
         <entry key="..\:/Users/surya/AndroidStudioProjects/MarineSoftApplication/app/src/main/res/drawable/blue_border.xml" value="0.1855" />
